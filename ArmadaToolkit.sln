@@ -5,13 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{EA2B2E09-514E-4B11-B77E-EB01A9B4822E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmadaToolkit.Client.Desktop", "ArmadaToolkit.Client.Desktop\ArmadaToolkit.Client.Desktop.csproj", "{246D1EE8-6CA3-49EE-94EE-17536D80D3C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmadaToolkit.Client.Desktop", "Source\ArmadaToolkit.Client.Desktop\ArmadaToolkit.Client.Desktop.csproj", "{246D1EE8-6CA3-49EE-94EE-17536D80D3C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmadaToolkit.Client.Desktop.Debian", "ArmadaToolkit.Client.Desktop.Debian\ArmadaToolkit.Client.Desktop.Debian.csproj", "{F4D55CA6-1796-44AB-B171-35932FCB36E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmadaToolkit.Client.Desktop.Debian", "Source\ArmadaToolkit.Client.Desktop.Debian\ArmadaToolkit.Client.Desktop.Debian.csproj", "{F4D55CA6-1796-44AB-B171-35932FCB36E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmadaToolkit.Client.Desktop.Mac", "ArmadaToolkit.Client.Desktop.Mac\ArmadaToolkit.Client.Desktop.Mac.csproj", "{1BEFB897-E6F2-4368-B003-F37CD37AB049}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmadaToolkit.Client.Desktop.Mac", "Source\ArmadaToolkit.Client.Desktop.Mac\ArmadaToolkit.Client.Desktop.Mac.csproj", "{1BEFB897-E6F2-4368-B003-F37CD37AB049}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmadaToolkit.Client.Desktop.Windows", "ArmadaToolkit.Client.Desktop.Windows\ArmadaToolkit.Client.Desktop.Windows.csproj", "{462A4012-B7D4-4EBC-99D2-7E4C0277F713}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmadaToolkit.Client.Desktop.Windows", "Source\ArmadaToolkit.Client.Desktop.Windows\ArmadaToolkit.Client.Desktop.Windows.csproj", "{462A4012-B7D4-4EBC-99D2-7E4C0277F713}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
