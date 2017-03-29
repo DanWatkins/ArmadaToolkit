@@ -5,3 +5,7 @@
 packages/
 
 Source/ArmadaToolkit\.Client\.Tablet\.Android/ArmadaToolkit\.Client\.Tablet\.Android\.csproj\.user
+
+Source/ArmadaToolkit\.Client\.Tablet\.UWP/ArmadaToolkit\.Client\.Tablet\.UWP\.nuget\.targets
+
+Source/ArmadaToolkit\.Client\.Tablet\.UWP/project\.lock\.json
