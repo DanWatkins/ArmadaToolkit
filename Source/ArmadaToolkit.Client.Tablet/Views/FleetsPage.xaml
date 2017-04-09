@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ArmadaToolkit.Client.Tablet;assembly=ArmadaToolkit.Client.Tablet"
+             xmlns:extensions="clr-namespace:ArmadaToolkit.Client.Tablet.Extensions;assembly=ArmadaToolkit.Client.Tablet"
+             x:Class="ArmadaToolkit.Client.Tablet.Views.FleetsPage"
+             Title="FleetsPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Filter" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Padding="10" VerticalOptions="FillAndExpand">
+            <ListView ItemsSource="{Binding Fleets}" VerticalOptions="FillAndExpand" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="100"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Image Grid.Column="0" Source="{Binding AllegianceImageSource}" WidthRequest="30" HeightRequest="30" Margin="5"/>
+                                <Label Grid.Column="1" Text="{Binding Name}" />
+                                <Label Grid.Column="2" Text="{Binding PointsFormatted}" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

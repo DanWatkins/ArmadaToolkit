@@ -25,7 +25,7 @@ namespace ArmadaToolkit.Client.Tablet.Views
             {
                 MenuItems = new ObservableCollection<MainPageMenuItem>(new[]
                 {
-                    new MainPageMenuItem { Id = 1, Title = "Fleets" },
+                    new MainPageMenuItem { Id = 1, Title = "Fleets", TargetType=typeof(FleetsPage) },
                     new MainPageMenuItem { Id = 2, Title = "Ships" },
                     new MainPageMenuItem { Id = 3, Title = "Squadrons" },
                     new MainPageMenuItem { Id = 4, Title = "Upgrades" },

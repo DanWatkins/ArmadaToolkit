@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.10
+VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmadaToolkit.Client.Tablet", "Source\ArmadaToolkit.Client.Tablet\ArmadaToolkit.Client.Tablet.csproj", "{909DD23D-C2E4-494B-9623-F63AA91A6C8A}"
 EndProject
