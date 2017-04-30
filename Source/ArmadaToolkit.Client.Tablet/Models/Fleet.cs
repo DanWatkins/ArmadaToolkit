@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System.Collections.Generic;
+using Xamarin.Forms;
 
 namespace ArmadaToolkit.Client.Tablet.Models
 {
@@ -11,6 +12,8 @@ namespace ArmadaToolkit.Client.Tablet.Models
         public int PointsTotal { get; set; }
         
         public int PointsMax { get; set; }
+
+        public List<Ship> Ships { get; set; }
 
         public ImageSource AllegianceImageSource
         {

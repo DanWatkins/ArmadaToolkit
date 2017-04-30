@@ -12,5 +12,10 @@ namespace ArmadaToolkit.Client.Tablet.Views
             InitializeComponent();
             BindingContext = new FleetsPageViewModel();
         }
+
+        private void ToolbarItemNew_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new FleetBuilderPage());
+        }
     }
 }

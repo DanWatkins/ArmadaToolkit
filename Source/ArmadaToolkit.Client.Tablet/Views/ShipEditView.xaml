@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArmadaToolkit.Client.Tablet.Views.ShipEditView">
+    <ContentView.Content>
+        <Frame OutlineColor="Black" CornerRadius="4" Margin="0" Padding="0">
+            <StackLayout Orientation="Vertical" Margin="0" Padding="4">
+                <Label Text="{Binding Title}" FontSize="Large"/>
+                <Label Text="120 + 47 points"/>
+                <BoxView Color="Black" HeightRequest="1"/>
+                <Button Text="Title" HorizontalOptions="Fill"/>
+                <Button Text="Officer" HorizontalOptions="Fill"/>
+                <Button Text="Weapon Teams" HorizontalOptions="Fill"/>
+                <Button Text="Offensive Retrofit" HorizontalOptions="Fill"/>
+                <Button Text="Defensive Retrofit" HorizontalOptions="Fill"/>
+                <Button Text="Ion Cannons" HorizontalOptions="Fill"/>
+                <Button Text="Turbolasers" HorizontalOptions="Fill"/>
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>
