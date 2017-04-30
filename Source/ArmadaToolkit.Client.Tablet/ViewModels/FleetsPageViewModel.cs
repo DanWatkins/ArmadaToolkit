@@ -1,4 +1,4 @@
-﻿using ArmadaToolkit.Client.Tablet.Models;
+﻿using ArmadaToolkit.Core;
 using System.Collections.Generic;
 
 namespace ArmadaToolkit.Client.Tablet.ViewModels

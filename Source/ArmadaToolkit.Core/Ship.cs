@@ -1,6 +1,4 @@
-﻿using Xamarin.Forms;
-
-namespace ArmadaToolkit.Client.Tablet.Models
+﻿namespace ArmadaToolkit.Core
 {
     public class Ship
     {

@@ -1,4 +1,4 @@
-﻿using ArmadaToolkit.Client.Tablet.Models;
+﻿using ArmadaToolkit.Core;
 using Xamarin.Forms;
 
 namespace ArmadaToolkit.Client.Tablet.Views

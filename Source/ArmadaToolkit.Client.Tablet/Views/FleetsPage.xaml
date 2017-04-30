@@ -23,9 +23,9 @@
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="*"/>
                                 </Grid.RowDefinitions>
-                                <Image Grid.Column="0" Source="{Binding AllegianceImageSource}" WidthRequest="30" HeightRequest="30" Margin="5"/>
+                                <!--<Image Grid.Column="0" Source="{Binding AllegianceImageSource}" WidthRequest="30" HeightRequest="30" Margin="5"/>-->
                                 <Label Grid.Column="1" Text="{Binding Name}" />
-                                <Label Grid.Column="2" Text="{Binding PointsFormatted}" />
+                                <Label Grid.Column="2" Text="{Binding PointsTotal}" />
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
